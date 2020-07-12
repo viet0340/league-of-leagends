@@ -1,0 +1,22 @@
+.header_body {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+
+  > div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  a {
+    font-size: 25px;
+    font-family: "Coiny";
+    color: rgb(156, 130, 130);
+    text-decoration: none;
+    padding: 0 20px;
+  }
+
+  .active {
+    color: white;
+  }
+}

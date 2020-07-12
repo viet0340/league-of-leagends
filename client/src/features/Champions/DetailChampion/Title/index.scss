@@ -1,0 +1,39 @@
+.detail_champion--title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  &-image {
+    width: 100px;
+    margin-right: 20px;
+    img {
+      width: 100px;
+      height: 100px;
+      border: 3px solid rgb(98, 110, 26);
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+  &-body {
+    .title_name {
+      font-size: 30px;
+      font-weight: 700;
+    }
+    .title_tags {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      color: rgb(138, 121, 121);
+      img {
+        width: 30px;
+        margin-right: 5px;
+      }
+    }
+    .title_description {
+      font-size: 18px;
+      color: rgb(113, 179, 97);
+    }
+  }
+}

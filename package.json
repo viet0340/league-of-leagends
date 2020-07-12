@@ -1,0 +1,28 @@
+{
+  "name": "league-of-leagends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "install-client": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client":"cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnvu96/league-of-leagends.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnvu96/league-of-leagends/issues"
+  },
+  "homepage": "https://github.com/johnvu96/league-of-leagends#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
